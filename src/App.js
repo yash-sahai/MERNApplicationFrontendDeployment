@@ -15,6 +15,7 @@ function App() {
       <HashRouter>
         <Nav />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/sign" element={<Sign />} />
           <Route path="/home" element={<Home />} />
           <Route path="/create-customer" element={<CreateCustomer />} />
